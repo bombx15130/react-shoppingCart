@@ -153,8 +153,10 @@ class shopping extends Component{
                         </div>
                         {/* <input /> */}
                         <div className="shoppingCartWrap">
-                            <FontAwesomeIcon icon="shopping-cart" onClick={this.show} className="cart-icon"/>
-                            <p>{this.state.countItem}</p>
+                            <div className="cart-icon" onClick={this.show}>
+                                <span>購物車</span>
+                                <p>({this.state.countItem})</p>
+                            </div>
                             <Cart shoppingData={this.state.shoppingCart} delItem={this.delItem} isShow={this.state.isShow}/>
                         </div>
                     </div>
