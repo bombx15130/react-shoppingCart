@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/react-shoppingCart/static/css/main.2a5257a2.chunk.css",
+    "main.js": "/react-shoppingCart/static/js/main.98a65d50.chunk.js",
+    "main.js.map": "/react-shoppingCart/static/js/main.98a65d50.chunk.js.map",
+    "runtime~main.js": "/react-shoppingCart/static/js/runtime~main.e98aa8e0.js",
+    "runtime~main.js.map": "/react-shoppingCart/static/js/runtime~main.e98aa8e0.js.map",
+    "static/js/2.92d9e5ca.chunk.js": "/react-shoppingCart/static/js/2.92d9e5ca.chunk.js",
+    "static/js/2.92d9e5ca.chunk.js.map": "/react-shoppingCart/static/js/2.92d9e5ca.chunk.js.map",
+    "index.html": "/react-shoppingCart/index.html",
+    "precache-manifest.6339314890e1eb5025e66c0c87f221fa.js": "/react-shoppingCart/precache-manifest.6339314890e1eb5025e66c0c87f221fa.js",
+    "service-worker.js": "/react-shoppingCart/service-worker.js",
+    "static/css/main.2a5257a2.chunk.css.map": "/react-shoppingCart/static/css/main.2a5257a2.chunk.css.map",
+    "static/media/logo.png": "/react-shoppingCart/static/media/logo.bd4817f0.png",
+    "static/media/product1.jpg": "/react-shoppingCart/static/media/product1.5a9d8c55.jpg",
+    "static/media/product10.jpg": "/react-shoppingCart/static/media/product10.913b7550.jpg",
+    "static/media/product11.jpg": "/react-shoppingCart/static/media/product11.c33e6f89.jpg",
+    "static/media/product2.jpg": "/react-shoppingCart/static/media/product2.93d4ebac.jpg",
+    "static/media/product3.jpg": "/react-shoppingCart/static/media/product3.31cac9ae.jpg",
+    "static/media/product4.jpg": "/react-shoppingCart/static/media/product4.fc8d9410.jpg",
+    "static/media/product5.jpg": "/react-shoppingCart/static/media/product5.f5c3d7b4.jpg",
+    "static/media/product6.jpg": "/react-shoppingCart/static/media/product6.6f8da7e0.jpg",
+    "static/media/product7.jpg": "/react-shoppingCart/static/media/product7.18f320f4.jpg",
+    "static/media/product8.jpg": "/react-shoppingCart/static/media/product8.0ad313be.jpg",
+    "static/media/product9.jpg": "/react-shoppingCart/static/media/product9.0b76925f.jpg"
+  }
+}
