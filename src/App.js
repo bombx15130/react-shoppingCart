@@ -1,26 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import NavBar from './components/NavBar'
+import { BrowserRouter as Router, Route } from "react-router-dom"
+import routes from './routes'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+library.add(faShoppingCart)
+
+const App = () => (
+  <Router>
+    <div>
+        <NavBar />
+        {
+          routes.map((routes) => (
+            <Route  key={routes.key}
+                    exact={routes.exact}
+                    path={routes.path}
+                    component={routes.component}
+            />
+          ))
+        }
+        {/* <Route exact path="/" component={Index} />
+        <Route path="/calculate" component={CalApp} /> */}
+        {/* <Route path="/TodoList" component={TodoList} /> */}
     </div>
-  );
-}
+  </Router>
+)
 
-export default App;
+export default App
